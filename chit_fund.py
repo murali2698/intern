@@ -9,7 +9,7 @@ import pandas as pd;
 import numpy as np;
 
 # data from excel sheet is readed as dataframe
-data_set=pd.read_excel('chit_fund_data.xlsx');
+data_set=pd.read_excel('chitFundData.xlsx');
 
 #Amount Contributed By Each particant for each month is calculated 
 data_set['totalAmountPaidByTheParticipant'] = data_set["Contribution"] - data_set["Amount returned to everyone in the group"]
